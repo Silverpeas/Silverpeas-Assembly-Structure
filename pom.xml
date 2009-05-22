@@ -196,7 +196,7 @@
       <artifactId>pdc</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
-    </dependency>    
+    </dependency>
     <dependency>
       <groupId>com.silverpeas.core.ejb-core</groupId>
       <artifactId>versioning</artifactId>
@@ -227,6 +227,39 @@
     <dependency>
       <groupId>com.silverpeas.core.ejb-core</groupId>
       <artifactId>statistic</artifactId>
+      <version>${core.version}</version>
+      <classifier>client</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>calendar</artifactId>
+      <version>${core.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>calendar</artifactId>
+      <version>${core.version}</version>
+      <classifier>client</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>contact</artifactId>
+      <version>${core.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>contact</artifactId>
+      <version>${core.version}</version>
+      <classifier>client</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>favorit</artifactId>
+      <version>${core.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>favorit</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
