@@ -263,6 +263,12 @@
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>mylinks</artifactId>
+      <version>${core.version}</version>
+      <classifier>client</classifier>
+    </dependency>
     
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -321,6 +327,13 @@
             </fileset>
             <fileset>
               <directory>${silverpeas.home}/silverpeas/dbRepository</directory>
+              <includes>
+                <include>**/**</include>
+              </includes>
+              <followSymlinks>false</followSymlinks>
+            </fileset>
+            <fileset>
+              <directory>${silverpeas.home}/silverpeas/data/portlets</directory>
               <includes>
                 <include>**/**</include>
               </includes>
