@@ -269,6 +269,22 @@
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>mylinks</artifactId>
+      <version>${core.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>questioncontainer</artifactId>
+      <version>${core.version}</version>
+      <classifier>client</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>questioncontainer</artifactId>
+      <version>${core.version}</version>
+    </dependency>
     
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -292,6 +308,15 @@
           <finalName>silverpeas</finalName>
           <outputDirectory>${silverpeas.home}</outputDirectory>
         </configuration>
+        <executions>
+          <execution>
+            <id>manage-configuration</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
