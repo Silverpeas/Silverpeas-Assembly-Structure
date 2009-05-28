@@ -58,6 +58,25 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
+    
+    <!-- Component Quickinfo -->
+    <dependency>
+      <groupId>com.silverpeas.components.quickinfo</groupId>
+      <artifactId>quickinfo-war</artifactId>
+      <type>war</type>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.quickinfo</groupId>
+      <artifactId>quickinfo-jar</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.quickinfo</groupId>
+      <artifactId>quickinfo-config</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <classifier>configuration</classifier>
+    </dependency>
 
     
     <dependency>
