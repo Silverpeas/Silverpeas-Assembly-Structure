@@ -77,6 +77,25 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
+    
+    <!-- Component Quizz -->
+    <dependency>
+      <groupId>com.silverpeas.components.quizz</groupId>
+      <artifactId>quizz-war</artifactId>
+      <type>war</type>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.quizz</groupId>
+      <artifactId>quizz-jar</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.quizz</groupId>
+      <artifactId>quizz-config</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <classifier>configuration</classifier>
+    </dependency>
 
     
     <dependency>
