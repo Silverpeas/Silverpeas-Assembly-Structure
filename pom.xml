@@ -166,7 +166,7 @@
       <classifier>configuration</classifier>
     </dependency>
     
-    <!-- Component MyDB -->
+    <!-- Component Project Manager -->
     <dependency>
       <groupId>com.silverpeas.components.project-manager</groupId>
       <artifactId>project-manager-war</artifactId>
@@ -187,6 +187,31 @@
     <dependency>
       <groupId>com.silverpeas.components.project-manager</groupId>
       <artifactId>project-manager-config</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <classifier>configuration</classifier>
+    </dependency>
+    
+    <!-- Component Web Sites -->
+    <dependency>
+      <groupId>com.silverpeas.components.websites</groupId>
+      <artifactId>websites-war</artifactId>
+      <type>war</type>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.websites</groupId>
+      <artifactId>websites-ejb</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.websites</groupId>
+      <artifactId>websites-ejb</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <classifier>client</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.websites</groupId>
+      <artifactId>websites-config</artifactId>
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
