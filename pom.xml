@@ -292,6 +292,25 @@
       <classifier>configuration</classifier>
     </dependency>
     
+    <!-- Component Mailinglist -->
+    <dependency>
+      <groupId>com.silverpeas.components.mailinglist</groupId>
+      <artifactId>mailinglist-war</artifactId>
+      <type>war</type>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.mailinglist</groupId>
+      <artifactId>mailinglist-jar</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.mailinglist</groupId>
+      <artifactId>mailinglist-config</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <classifier>configuration</classifier>
+    </dependency>
+    
 
     
     <dependency>
@@ -524,6 +543,10 @@
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
     </dependency>
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+    </dependency> 
   </dependencies>
 
   <build>
