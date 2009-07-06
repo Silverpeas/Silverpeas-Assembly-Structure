@@ -374,6 +374,31 @@
       <classifier>configuration</classifier>
     </dependency>
     
+    <!-- Component Almanach -->
+    <dependency>
+      <groupId>com.silverpeas.components.almanach</groupId>
+      <artifactId>almanach-war</artifactId>
+      <type>war</type>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.almanach</groupId>
+      <artifactId>almanach-ejb</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.almanach</groupId>
+      <artifactId>almanach-ejb</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <classifier>client</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.almanach</groupId>
+      <artifactId>almanach-config</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <classifier>configuration</classifier>
+    </dependency>
+    
     <dependency>
       <groupId>com.silverpeas.core</groupId>
       <artifactId>lib-core</artifactId>
@@ -688,6 +713,13 @@
             </fileset>
             <fileset>
               <directory>${silverpeas.home}/silverpeas/data/portlets</directory>
+              <includes>
+                <include>**/**</include>
+              </includes>
+              <followSymlinks>false</followSymlinks>
+            </fileset>
+            <fileset>
+              <directory>${silverpeas.home}/silverpeas/jar</directory>
               <includes>
                 <include>**/**</include>
               </includes>
