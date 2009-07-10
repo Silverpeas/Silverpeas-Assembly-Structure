@@ -468,6 +468,31 @@
       <classifier>configuration</classifier>
     </dependency>
     
+     <!-- Component Process Manager -->
+    <dependency>
+      <groupId>com.silverpeas.components.process-manager</groupId>
+      <artifactId>process-manager-war</artifactId>
+      <type>war</type>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.process-manager</groupId>
+      <artifactId>process-manager-ejb</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.process-manager</groupId>
+      <artifactId>process-manager-ejb</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <classifier>client</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.process-manager</groupId>
+      <artifactId>process-manager-config</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <classifier>configuration</classifier>
+    </dependency>
+    
     <dependency>
       <groupId>com.silverpeas.core</groupId>
       <artifactId>lib-core</artifactId>
