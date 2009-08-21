@@ -7,4 +7,20 @@
   <version>1.0-SNAPSHOT</version>
   <name>Assembly</name>
   <url>http://www.silverpeas.com</url>
+  
+  <distributionManagement>
+    <repository>
+      <id>silverpeas</id>
+      <name>Repository Silverpeas</name>
+      <layout>default</layout>
+      <url>dav:http://repository.silverpeas.org/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>silverpeas-snapshots</id>
+      <name>Snapshots Repository Silverpeas</name>
+      <layout>default</layout>
+      <url>dav:http://repository.silverpeas.org/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  
 </project>
