@@ -8,6 +8,12 @@
   <name>Assembly</name>
   <url>http://www.silverpeas.com</url>
   
+  <scm>
+    <connection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly/trunk</connection>
+    <developerConnection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly/trunk</developerConnection>
+    <url>https://repository.silverpeas.org/svn/silverpeas/assembly/trunk/</url>
+  </scm>
+  
   <distributionManagement>
     <repository>
       <id>silverpeas</id>
