@@ -22,6 +22,12 @@
       </excludes>
     </dependencySet>
     <dependencySet>
+    <outputDirectory>java</outputDirectory>
+      <includes>
+        <include>*ejb-core:importExport</include>
+      </includes>
+    </dependencySet>
+    <dependencySet>
     <outputDirectory>war</outputDirectory>
       <includes>
         <include>*:*-war</include>
@@ -43,6 +49,7 @@
         <include>*ejb-core:*</include>
       </includes>
       <excludes>
+        <exclude>*ejb-core:importExport</exclude>
         <exclude>javax.mail:*</exclude>
         <exclude>*ejb-core:*:client</exclude>
         <exclude>*:*:configuration</exclude>
