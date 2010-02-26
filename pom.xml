@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.silverpeas</groupId>
   <artifactId>assembly</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <name>Assembly</name>
   <url>http://www.silverpeas.com</url>
   
   <scm>
-    <connection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly/trunk</connection>
-    <developerConnection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly/trunk</developerConnection>
-    <url>https://repository.silverpeas.org/svn/silverpeas/assembly/trunk/</url>
+    <connection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly/tags/assembly-1.1</connection>
+    <developerConnection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly/tags/assembly-1.1</developerConnection>
+    <url>https://repository.silverpeas.org/svn/silverpeas/assembly/tags/assembly-1.1</url>
   </scm>
   
   <distributionManagement>
