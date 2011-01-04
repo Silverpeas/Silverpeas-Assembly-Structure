@@ -25,6 +25,7 @@
     <outputDirectory>java</outputDirectory>
       <includes>
         <include>*ejb-core:importExport</include>
+        <include>*ejb-core:comment</include>
       </includes>
     </dependencySet>
     <dependencySet>
@@ -50,6 +51,7 @@
       </includes>
       <excludes>
         <exclude>*ejb-core:importExport</exclude>
+        <exclude>*ejb-core:comment</exclude>
         <exclude>javax.mail:*</exclude>
         <exclude>*ejb-core:*:client</exclude>
         <exclude>*:*:configuration</exclude>
