@@ -8,9 +8,9 @@
   <url>http://www.silverpeas.com</url>
   
   <scm>
-    <connection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly/trunk</connection>
-    <developerConnection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly/trunk</developerConnection>
-    <url>https://repository.silverpeas.org/svn/silverpeas/assembly/trunk/</url>
+    <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly/trunk</connection>
+    <developerConnection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly/trunk</developerConnection>
+    <url>https://www.silverpeas.org/svn/silverpeas/assembly/trunk/</url>
   </scm>
   
   <distributionManagement>
@@ -18,13 +18,13 @@
       <id>silverpeas</id>
       <name>Repository Silverpeas</name>
       <layout>default</layout>
-      <url>http://repository.silverpeas.org/nexus/content/repositories/releases/</url>
+      <url>http://wwww.silverpeas.org/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>silverpeas-snapshots</id>
       <name>Snapshots Repository Silverpeas</name>
       <layout>default</layout>
-      <url>http://repository.silverpeas.org/nexus/content/repositories/snapshots/</url>
+      <url>http://www.silverpeas.org/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
   
