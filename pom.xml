@@ -8,9 +8,9 @@
   <url>http://www.silverpeas.com</url>
   
   <scm>
-    <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly/trunk</connection>
-    <developerConnection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly/trunk</developerConnection>
-    <url>https://www.silverpeas.org/svn/silverpeas/assembly/trunk/</url>
+    <connection>scm:git:git@github.com:Silverpeas/Silverpeas-Assembly-Structure.git</connection>
+    <developerConnection>scm:git:git@github.com:Silverpeas/Silverpeas-Assembly-Structure.git</developerConnection>
+    <url>https://github.com/Silverpeas/Silverpeas-Assembly-Structure</url>
   </scm>
   
   <distributionManagement>
