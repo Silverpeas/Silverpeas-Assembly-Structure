@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>	
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.silverpeas</groupId>
   <artifactId>assembly</artifactId>
-  <version>1.2</version>
-  <name>Assembly</name>
+  <version>1.3-SNAPSHOT</version>
+  <name>Assembly Structure</name>
   <url>http://www.silverpeas.com</url>
-  
+
   <scm>
     <connection>scm:git:git@github.com:Silverpeas/Silverpeas-Assembly-Structure.git</connection>
     <developerConnection>scm:git:git@github.com:Silverpeas/Silverpeas-Assembly-Structure.git</developerConnection>
     <url>https://github.com/Silverpeas/Silverpeas-Assembly-Structure</url>
   </scm>
-  
+
   <distributionManagement>
     <repository>
       <id>silverpeas</id>
@@ -27,5 +27,5 @@
       <url>http://www.silverpeas.org/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
-  
+
 </project>
