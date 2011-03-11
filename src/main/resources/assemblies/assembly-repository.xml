@@ -26,6 +26,7 @@
       <includes>
         <include>*ejb-core:importExport</include>
         <include>*ejb-core:comment</include>
+        <include>*ejb-core:personalization</include>
       </includes>
     </dependencySet>
     <dependencySet>
@@ -52,6 +53,7 @@
       <excludes>
         <exclude>*ejb-core:importExport</exclude>
         <exclude>*ejb-core:comment</exclude>
+        <exclude>*ejb-core:personalization</exclude>
         <exclude>javax.mail:*</exclude>
         <exclude>*ejb-core:*:client</exclude>
         <exclude>*:*:configuration</exclude>
