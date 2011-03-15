@@ -7,8 +7,21 @@
   <includeBaseDirectory>false</includeBaseDirectory>
   <dependencySets>
     <dependencySet>
+    <outputDirectory>jboss</outputDirectory>
+      <includes>
+        <include>javax.portlet:portlet-api</include>
+        <include>com.sun.portal.portletcontainer:*container</include>
+        <include>postgresql:postgresql</include>
+        <include>net.sourceforge.jtds:jtds</include>
+      </includes>
+    </dependencySet>
+    <dependencySet>
     <outputDirectory>java</outputDirectory>
       <excludes>
+        <exclude>javax.portlet:portlet-api</exclude>
+        <exclude>com.sun.portal.portletcontainer:*container</exclude>
+        <exclude>postgresql:postgresql</exclude>
+        <exclude>net.sourceforge.jtds:jtds</exclude>
         <exclude>javax.mail:*</exclude>
         <exclude>*ejb-core:*</exclude>
         <exclude>*:*-ejb</exclude>
@@ -46,44 +59,23 @@
     </dependencySet>
     <dependencySet>
       <outputDirectory>ejb</outputDirectory>
-       <includes>
+      <includes>
+        <include>*:*-ejb</include>
         <include>*ejb-core:*</include>
       </includes>
       <excludes>
         <exclude>*ejb-core:importExport</exclude>
         <exclude>*ejb-core:comment</exclude>
         <exclude>javax.mail:*</exclude>
-        <exclude>*ejb-core:*:client</exclude>
-        <exclude>*:*:configuration</exclude>
-      </excludes>
-    </dependencySet>
-    <dependencySet>
-      <outputDirectory>ejb</outputDirectory>
-      <includes>
-        <include>*:*-ejb</include>
-      </includes>
-      <excludes>
         <exclude>javax.mail:*</exclude>
-        <exclude>*ejb-core:*</exclude>
-        <exclude>*:*-ejb:*:client</exclude>
+        <exclude>*:*:client</exclude>
         <exclude>*:*:configuration</exclude>
       </excludes>
     </dependencySet>
     <dependencySet>
       <outputDirectory>client</outputDirectory>
       <includes>
-        <include>*ejb-core:*:client</include>
-      </includes>
-      <excludes>
-        <exclude>*ejb-core:*.jar</exclude>
-        <exclude>*:*:configuration</exclude>
-        <exclude>*:*-ejb:*:client</exclude>
-      </excludes>
-    </dependencySet>
-    <dependencySet>
-      <outputDirectory>client</outputDirectory>
-      <includes>
-        <include>*:*-ejb:*:client</include>
+        <include>*:*:client</include>
       </includes>
       <excludes>
         <exclude>*ejb-core:*.jar</exclude>
