@@ -13,6 +13,7 @@
         <include>com.sun.portal.portletcontainer:*container</include>
         <include>postgresql:postgresql</include>
         <include>net.sourceforge.jtds:jtds</include>
+        <include>com.h2database:h2</include>
       </includes>
     </dependencySet>
     <dependencySet>
@@ -22,6 +23,7 @@
         <exclude>com.sun.portal.portletcontainer:*container</exclude>
         <exclude>postgresql:postgresql</exclude>
         <exclude>net.sourceforge.jtds:jtds</exclude>
+        <exclude>com.h2database:h2</exclude>
         <exclude>javax.mail:*</exclude>
         <exclude>*ejb-core:*</exclude>
         <exclude>*:*-ejb</exclude>
