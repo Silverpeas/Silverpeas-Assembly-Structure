@@ -7,29 +7,33 @@
   <includeBaseDirectory>false</includeBaseDirectory>
   <dependencySets>
     <dependencySet>
-    <outputDirectory>jboss</outputDirectory>
+      <outputDirectory>jboss</outputDirectory>
       <includes>
         <include>javax.portlet:portlet-api</include>
         <include>com.sun.portal.portletcontainer:*container</include>
         <include>postgresql:postgresql</include>
         <include>net.sourceforge.jtds:jtds</include>
         <include>com.h2database:h2</include>
+        <include>javax.jcr:jcr</include>
+        <include>org.bouncycastle:bcprov-*</include>
       </includes>
     </dependencySet>
     <dependencySet>
-    <outputDirectory>java</outputDirectory>
+      <outputDirectory>java</outputDirectory>
       <excludes>
         <exclude>javax.portlet:portlet-api</exclude>
         <exclude>com.sun.portal.portletcontainer:*container</exclude>
         <exclude>postgresql:postgresql</exclude>
         <exclude>net.sourceforge.jtds:jtds</exclude>
         <exclude>com.h2database:h2</exclude>
+        <exclude>org.bouncycastle:bcprov-*</exclude>
         <exclude>javax.mail:*</exclude>
         <exclude>*ejb-core:*</exclude>
         <exclude>*:*-ejb</exclude>
         <exclude>*:*:configuration</exclude>
         <exclude>*:*:client</exclude>
         <exclude>*:*-war</exclude>
+        <exclude>*:*:war</exclude>
         <exclude>*:*-war-lib</exclude>
         <exclude>*:web-core</exclude>
         <exclude>*:war-core</exclude>
@@ -37,15 +41,18 @@
       </excludes>
     </dependencySet>
     <dependencySet>
-    <outputDirectory>java</outputDirectory>
+      <outputDirectory>java</outputDirectory>
       <includes>
         <include>*ejb-core:importExport</include>
         <include>*ejb-core:comment</include>
         <include>*ejb-core:personalization</include>
       </includes>
+      <excludes>
+        <exclude>*:*:war</exclude>
+      </excludes>
     </dependencySet>
     <dependencySet>
-    <outputDirectory>war</outputDirectory>
+      <outputDirectory>war</outputDirectory>
       <includes>
         <include>*:*-war</include>
         <include>*:war-core</include>
@@ -84,6 +91,23 @@
       <excludes>
         <exclude>*ejb-core:*.jar</exclude>
         <exclude>*:*:configuration</exclude>
+      </excludes>
+    </dependencySet>
+    <dependencySet>
+      <outputDirectory>external</outputDirectory>
+      <includes>
+        <include>*:*:war</include>
+      </includes>
+      <excludes>
+        <exclude>*:*-war</exclude>
+        <exclude>*:war-core</exclude>
+        <exclude>javax.mail:*</exclude>
+        <exclude>*ejb-core:*</exclude>
+        <exclude>*:*-ejb</exclude>
+        <exclude>*:*:client</exclude>
+        <exclude>*:*:configuration</exclude>
+        <exclude>*:*-war-lib</exclude>
+        <exclude>junit:*</exclude>
       </excludes>
     </dependencySet>
   </dependencySets>
