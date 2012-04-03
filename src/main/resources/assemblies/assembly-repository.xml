@@ -46,6 +46,7 @@
         <include>*ejb-core:importExport</include>
         <include>*ejb-core:comment</include>
         <include>*ejb-core:personalization</include>
+        <include>*ejb-core:searchEngine</include>
       </includes>
       <excludes>
         <exclude>*:*:war</exclude>
@@ -77,6 +78,7 @@
         <exclude>*ejb-core:importExport</exclude>
         <exclude>*ejb-core:comment</exclude>
         <exclude>*ejb-core:personalization</exclude>
+        <exclude>*ejb-core:searchEngine</exclude>
         <exclude>javax.mail:*</exclude>
         <exclude>javax.mail:*</exclude>
         <exclude>*:*:client</exclude>
