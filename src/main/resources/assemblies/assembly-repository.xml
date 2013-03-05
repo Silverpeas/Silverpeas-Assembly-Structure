@@ -7,6 +7,12 @@
   <includeBaseDirectory>false</includeBaseDirectory>
   <dependencySets>
     <dependencySet>
+      <outputDirectory>lib</outputDirectory>
+      <includes>
+        <include>org.bouncycastle:bcprov-*</include>
+      </includes>
+    </dependencySet>
+    <dependencySet>
       <outputDirectory>jboss</outputDirectory>
       <includes>
         <include>javax.portlet:portlet-api</include>
@@ -15,7 +21,6 @@
         <include>net.sourceforge.jtds:jtds</include>
         <include>com.h2database:h2</include>
         <include>javax.jcr:jcr</include>
-        <include>org.bouncycastle:bcprov-*</include>
       </includes>
     </dependencySet>
     <dependencySet>
